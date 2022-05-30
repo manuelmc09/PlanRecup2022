@@ -1,0 +1,274 @@
+{
+  "poblaciones": [
+    {
+      "barrio": "Cabueñes",
+      "codigo_postal": "33203",
+      "mujer": 752,
+      "varon": 714
+    },
+    {
+      "barrio": "Caldones",
+      "codigo_postal": "33391",
+      "mujer": 212,
+      "varon": 214
+    },
+    {
+      "barrio": "Castiello Bernueces",
+      "codigo_postal": "33394",
+      "mujer": 535,
+      "varon": 527
+    },
+    {
+      "barrio": "Ceares/Ciares",
+      "codigo_postal": "33209",
+      "mujer": 8909,
+      "varon": 7816
+    },
+    {
+      "barrio": "Centro",
+      "codigo_postal": "33201",
+      "mujer": 18905,
+      "varon": 15556
+    },
+    {
+      "barrio": "Cimavilla",
+      "codigo_postal": "33201",
+      "mujer": 1448,
+      "varon": 1331
+    },
+    {
+      "barrio": "Contrueces",
+      "codigo_postal": "33394",
+      "mujer": 3245,
+      "varon": 3073
+    },
+    {
+      "barrio": "Deva",
+      "codigo_postal": "33394",
+      "mujer": 356,
+      "varon": 345
+    },
+    {
+      "barrio": "El Bibio",
+      "codigo_postal": "33204",
+      "mujer": 2426,
+      "varon": 2157
+    },
+    {
+      "barrio": "El Coto",
+      "codigo_postal": "33204",
+      "mujer": 5364,
+      "varon": 4708
+    },
+    {
+      "barrio": "El Llano",
+      "codigo_postal": "33209",
+      "mujer": 21817,
+      "varon": 19596
+    },
+    {
+      "barrio": "El Natahoyo",
+      "codigo_postal": "33212",
+      "mujer": 8141,
+      "varon": 7714
+    },
+    {
+      "barrio": "El Polígono",
+      "codigo_postal": "33207",
+      "mujer": 5505,
+      "varon": 5023
+    },
+    {
+      "barrio": "Fano",
+      "codigo_postal": "33391",
+      "mujer": 103,
+      "varon": 117
+    },
+    {
+      "barrio": "Fresno",
+      "codigo_postal": "33393",
+      "mujer": 305,
+      "varon": 288
+    },
+    {
+      "barrio": "Granda",
+      "codigo_postal": "33213",
+      "mujer": 347,
+      "varon": 316
+    },
+    {
+      "barrio": "Jove/Xove",
+      "codigo_postal": "33290",
+      "mujer": 1641,
+      "varon": 1544
+    },
+    {
+      "barrio": "L' Arena",
+      "codigo_postal": "33202",
+      "mujer": 9611,
+      "varon": 7929
+    },
+    {
+      "barrio": "L`Abadía Cenero",
+      "codigo_postal": "33392",
+      "mujer": 724,
+      "varon": 735
+    },
+    {
+      "barrio": "La Calzada",
+      "codigo_postal": "33213",
+      "mujer": 13467,
+      "varon": 12439
+    },
+    {
+      "barrio": "La Pedrera",
+      "codigo_postal": "33390",
+      "mujer": 405,
+      "varon": 375
+    },
+    {
+      "barrio": "Laviada",
+      "codigo_postal": "33207",
+      "mujer": 6702,
+      "varon": 5771
+    },
+    {
+      "barrio": "Leorio/Llorio",
+      "codigo_postal": "33390",
+      "mujer": 207,
+      "varon": 199
+    },
+    {
+      "barrio": "Les Mestes",
+      "codigo_postal": "33204",
+      "mujer": 1887,
+      "varon": 1659
+    },
+    {
+      "barrio": "Llavandera",
+      "codigo_postal": "33350",
+      "mujer": 176,
+      "varon": 180
+    },
+    {
+      "barrio": "Montevil",
+      "codigo_postal": "33210",
+      "mujer": 4286,
+      "varon": 4277
+    },
+    {
+      "barrio": "Moreda",
+      "codigo_postal": "33212",
+      "mujer": 1423,
+      "varon": 1285
+    },
+    {
+      "barrio": "Nuevo Gijón/La Peral",
+      "codigo_postal": "33211",
+      "mujer": 1679,
+      "varon": 1571
+    },
+    {
+      "barrio": "Perchera/La Braña",
+      "codigo_postal": "33211",
+      "mujer": 1541,
+      "varon": 1471
+    },
+    {
+      "barrio": "Porceyo",
+      "codigo_postal": "33392",
+      "mujer": 337,
+      "varon": 354
+    },
+    {
+      "barrio": "Puao",
+      "codigo_postal": "33392",
+      "mujer": 108,
+      "varon": 112
+    },
+    {
+      "barrio": "Pumarín",
+      "codigo_postal": "33210",
+      "mujer": 9404,
+      "varon": 8502
+    },
+    {
+      "barrio": "Roces",
+      "codigo_postal": "33211",
+      "mujer": 3094,
+      "varon": 2988
+    },
+    {
+      "barrio": "Ruedes",
+      "codigo_postal": "33392",
+      "mujer": 62,
+      "varon": 56
+    },
+    {
+      "barrio": "Samartin de Güerces",
+      "codigo_postal": "33350",
+      "mujer": 156,
+      "varon": 158
+    },
+    {
+      "barrio": "San Andrés de los Tacones",
+      "codigo_postal": "33697",
+      "mujer": 75,
+      "varon": 86
+    },
+    {
+      "barrio": "Santa Bárbara",
+      "codigo_postal": "33211",
+      "mujer": 706,
+      "varon": 658
+    },
+    {
+      "barrio": "Santurio",
+      "codigo_postal": "33391",
+      "mujer": 134,
+      "varon": 129
+    },
+    {
+      "barrio": "Serin",
+      "codigo_postal": "33697",
+      "mujer": 155,
+      "varon": 154
+    },
+    {
+      "barrio": "Somió",
+      "codigo_postal": "33203",
+      "mujer": 3840,
+      "varon": 3517
+    },
+    {
+      "barrio": "Tremañes",
+      "codigo_postal": "33211",
+      "mujer": 1179,
+      "varon": 1176
+    },
+    {
+      "barrio": "Valdornón",
+      "codigo_postal": "33350",
+      "mujer": 90,
+      "varon": 85
+    },
+    {
+      "barrio": "Vega",
+      "codigo_postal": "33193",
+      "mujer": 1825,
+      "varon": 1648
+    },
+    {
+      "barrio": "Veriña",
+      "codigo_postal": "33691",
+      "mujer": 269,
+      "varon": 284
+    },
+    {
+      "barrio": "Viesques",
+      "codigo_postal": "33204",
+      "mujer": 2659,
+      "varon": 2708
+    }
+  ]
+}

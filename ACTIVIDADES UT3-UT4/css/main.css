@@ -1,0 +1,125 @@
+@font-face {
+    font-family: LatoRegular;
+    src: url(./fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: LatoMedium;
+    src: url(./fonts/Lato-Medium.ttf);
+}
+
+header {
+    background-color: #4c4c51;
+    display:grid;
+    padding:10px;
+    margin:5px
+}
+
+header h1 {
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    padding-top: 10px;
+    text-align: center;
+}
+header h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin:10px;
+    padding:5px;
+    text-align: center;
+}
+header h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin:10px;
+    padding:5px;
+    text-align: center;
+}
+
+h1.instrucciones {
+    border-top: 1px solid black;
+    padding-top:5px
+}
+
+nav {
+    top: 0px;
+    margin:5px
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    /*position: fixed;   */
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+section h1,
+h2 {
+    color: rgb(13, 61, 15);
+}
+p{
+    color:darkred;
+    font-size: 1.2rem;
+}
+
+section p {
+    font-family: LatoMedium, Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color:darkred;
+    border-top: 1px solid black;
+    padding-top:5px
+}
+ol.util{
+    color:#4c4c51;
+    background-color: #fff;
+    float:left;
+    padding:10px;
+    list-style-type: decimal;
+}
+ol li{
+    background: #ffe5e5;
+  color: darkred;
+  padding: 5px;
+  margin-left: 25px;
+}
+
+footer {
+    display:grid;
+    top:180px;
+    background-color: #4c4c51;
+    height: 40px;
+    padding-left:10px;
+    margin:5px
+}
+footer>p{
+    font-family: LatoMedium, Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin:5px;
+    font-size: 1rem;
+}

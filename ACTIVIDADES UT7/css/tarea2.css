@@ -1,0 +1,70 @@
+@font-face {
+    font-family: LatoRegular;
+    src: url(./fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: LatoMedium;
+    src: url(./fonts/Lato-Medium.ttf);
+}
+
+header {
+    background-color: #4c4c51;
+    display:grid;
+    padding:10px;
+    margin:5px
+}
+
+header h1 {
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    padding-top: 10px;
+    text-align: center;
+}
+header h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin:10px;
+    padding:5px;
+    text-align: center;
+}
+header h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin:10px;
+    padding:5px;
+    text-align: center;
+}
+nav {
+    top: 0px;
+    margin:0px auto;
+    background-color: #4c4c51;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    width: 1050px;
+    height: 80px;
+    display: grid;
+}
+ul#tarea2 li{
+    color: #4c4c51;
+}
+nav ul{
+    list-style-type: none;
+    background-color: #333;
+    display: grid;
+    margin:5px;
+    padding: 2px;
+}
+#tarea2{
+    position: relative;
+    top: 100px;
+    left:500px
+}
+
+
+

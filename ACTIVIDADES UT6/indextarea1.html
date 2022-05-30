@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css">
+      <!-- Awesome font  -->
+      <link rel="stylesheet" href="./css/font-awesome.css">
+      <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <title>Index-tarea 1</title>
+    <link rel="stylesheet" href="./css/tarea1.css"  type="text/css">
+</head>
+<body>
+    <div class="container" id="datos">
+        <header>
+            <h1>Tarea 1.</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html" title="Inicio">Inicio</a></li>
+                <li><a href="tarea1.html" title="Tarea 5">Tarea 1</a></li>
+            </ul>
+        </nav>
+        <p id="pBloque">Primer Párrafo
+            <ul>
+                <li><a href="#">primer enlace </a></li>
+                <li><a href="https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_ondragenter">segundo enlace</a></li>
+            </ul>
+        </p> 
+        <p name="pTexto">Segundo Párrafo</p>
+        <p>Tercer párrafo <br>
+            <a href="https://www.javascripttutorial.net/web-apis/javascript-drag-and-drop/">tercer enlace</a>
+        </p>
+        <p>Cuarto párrafo <br> <a href="http://www.w3.org/1999/xhtml">cuarto enlace</a>
+        </p>
+        <div id="resultados"></div>
+        <input type="button" id="info" value="Mostrar Información">
+    </div>
+    <div class="container" id="modifica">           
+               <fieldset>
+                   <legend>Modificar el enlace</legend>
+               
+                <form action="" name="modifica" id="formulariomodifica" method="get">
+                    <label for="url">URL:</label>
+                    <input type="text" name="url" id="url" /> <br>
+                    <label for="texto">Texto:</label>
+                    <input type="text" name="texto" id="texto" /> <br>
+                    <label for="target">Target:</label>
+                    <select name="target" id="target">
+                        <option value="0">Nueva ventana</option>
+                    </select>
+                </form>
+            </fieldset>
+    </div>
+  
+    
+     <!-- Option 2: Separate Popper and Bootstrap JS -->
+     <script src="./js/jquery-3.3.1.min.js"></script>
+     <script src="./js/popper.min.js"></script>
+     <script src="./js/bootstrap.min.js"></script>
+     <script src="./js/tarea1.js"></script>
+</body>
+</html>

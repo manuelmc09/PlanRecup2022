@@ -1,0 +1,30 @@
+{  
+"noticias1":"Listado de libros mas vendidos",
+"noticias2":"Otros libros de otros autores",
+"libros": [
+    {
+     	"id":1,
+	"titulo":"Sira",
+	"autor":"Maria Dueñas",
+	"editorial":"Edicción Planeta",
+	"otros":[
+		"La hijas del capitán",
+		"El tiempo entre costuras",
+		"La Templanza",
+		"Misión Olvido"
+	]
+ },
+ {
+	"id":2,
+	"titulo":"Castellano",
+	"autor":"Lorenzo Silva",
+	"editorial":"Edicciones Destino",
+	"otros":[
+		"El nombre de los nuestros",
+		"Hacernos adultos",
+		"Diario de la alarma",
+		"Donde uno cae"
+	]
+   }
+  ]
+}

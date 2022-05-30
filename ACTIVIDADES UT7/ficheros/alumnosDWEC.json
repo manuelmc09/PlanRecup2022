@@ -1,0 +1,106 @@
+{  
+  "dwec": [
+    {
+      "alumno": "Hector García Garcia",
+      "practico": 7,
+      "teorico": 8      
+    },
+    {
+      "alumno": "Ana Maria Diaz Diaz",
+      "practico": 6,
+      "teorico": 5      
+    },
+    {
+      "alumno": "Luis Naves Secades",
+      "practico": 9,
+      "teorico": 5     
+    },
+    {
+      "alumno": "Julia Alvarez Fernandez",
+      "practico": 8,
+      "teorico": 9     
+    },
+    {
+      "alumno": "Manuel Fernández Alvarez",
+      "practico": 5,
+      "teorico": 4   
+    },
+    {
+      "alumno": "David Manso Leon",
+      "practico": 4,
+      "teorico": 4   
+    },
+    {
+      "alumno": "Clara Gonzalez Diez",
+      "practico": 4,
+      "teorico": 6   
+    },
+    {
+      "alumno": "Elena Martinez Diez",
+      "practico": 4,
+      "teorico": 2   
+    },
+    {
+      "alumno": "Antonio Garcia Diaz",
+      "practico": 8,
+      "teorico": 9   
+    },
+    {
+      "alumno": "Rosa López Marín",
+      "practico": 2,
+      "teorico": 3   
+    }
+   ],
+  "dwes":[
+    {
+      "alumno": "Hector García Garcia",
+      "practico": 9,
+      "teorico": 8      
+    },
+    {
+      "alumno": "Ana Maria Diaz Diaz",
+      "practico": 6,
+      "teorico": 6      
+    },
+    {
+      "alumno": "Luis Naves Secades",
+      "practico": 9,
+      "teorico": 3     
+    },
+    {
+      "alumno": "Julia Alvarez Fernandez",
+      "practico": 10,
+      "teorico": 9     
+    },
+    {
+      "alumno": "Manuel Fernández Alvarez",
+      "practico": 5,
+      "teorico": 5   
+    },
+    {
+      "alumno": "David Manso Leon",
+      "practico": 7,
+      "teorico": 7   
+    },
+    {
+      "alumno": "Clara Gonzalez Diez",
+      "practico": 4,
+      "teorico": 6   
+    },
+    {
+      "alumno": "Elena Martinez Diez",
+      "practico": 9,
+      "teorico": 7   
+    },
+    {
+      "alumno": "Antonio Garcia Diaz",
+      "practico": 9,
+      "teorico": 9   
+    },
+    {
+      "alumno": "Rosa López Marín",
+      "practico": 2,
+      "teorico": 8   
+    }
+   ]
+}

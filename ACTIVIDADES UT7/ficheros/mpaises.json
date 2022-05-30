@@ -1,0 +1,75 @@
+{
+  "listadoPaises": {
+    "pais": [
+      {
+        "nombre": "España",
+        "capital": "Madrid",
+        "textoCapital": "Madrid: Es un municipio y ciudad de España.La localidad, con categoría histórica de villa,es la capital del Estado​ y de la Comunidad de Madrid. Dentro del término municipal de Madrid, el más poblado de España, viven 3 223 334 personas empadronadas, según el INE de 2018.",
+        "ciudadesImportantes": [
+          "Madrid",
+          "Barcelona",
+          "Valencia",
+          "Sevilla",
+          "Zaragoza",
+          "Málaga",
+          "Murcia"
+        ]
+      },
+	  {
+        "nombre": "Italia",
+        "capital": "Roma",
+        "textoCapital": "Roma: Ciudad italiana de 2.877.215 habitantes,2​3​ capital de la región del Lacio y de Italia. Es el municipio más poblado de Italia y es la cuarta ciudad más poblada de la Unión Europea. Por antonomasia, se la conoce desde fines de la Antigüedad como la Urbe. También es llamada 'La Ciudad Eterna'",
+        "ciudadesImportantes": [
+          "Roma",
+          "Venecia",
+          "Verona",
+          "Nápoles",
+          "Milan",
+          "Florencia"
+        ]
+      },
+	   {
+        "nombre": "Francia",
+        "capital": "Paris",
+        "textoCapital": "París: Capital de la región de Isla de Francia (o 'Región Parisina'), constituye la única comuna unidepartamental del país. Está situada a ambos márgenes de un largo meandro del río Sena, en el centro de la cuenca parisina, entre la confluencia del río Marne y el Sena, aguas arriba, y el Oise y el Sena, aguas abajo.",
+        "ciudadesImportantes": [
+          "Lyon",
+          "Toulouse",
+          "Niza",
+          "Marsella",
+          "Nantes",
+          "Burdeos"
+        ]
+      },
+      {
+        "nombre": "Argentina",
+        "capital": "Buenos Aires",
+        "textoCapital": "Buenos Aires, formalmente Ciudad Autónoma de Buenos Aires (CABA) ―también… ",
+        "ciudadesImportantes": [
+          "Buenos Aires",
+          "Córdoba",
+          "Rosario",
+          "La Plata",
+          "Mar del Plata",
+          "San Miguel de Tucumán",
+          "Ciudad de Salta"
+        ]
+      },
+      {
+        "nombre": "Colombia",
+        "capital": "Bogotá",
+        "textoCapital": "Bogotá, oficialmente Bogotá, Distrito Capital, abreviado Bogotá, D. C. es la… ",
+        "ciudadesImportantes": [
+          "Bogotá",
+          "Medellín",
+          "Cali",
+          "Barranquilla",
+          "Cartagena",
+          "Cúcuta",
+          "Soledad",
+          "Ibagué"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+@font-face {
+    font-family: LatoRegular;
+    src: url(./fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: LatoMedium;
+    src: url(./fonts/Lato-Medium.ttf);
+}
+
+header {
+    background-color: #4c4c51;
+    display:grid;
+    padding:10px;
+    margin:5px
+}
+
+header h1 {
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    padding-top: 10px;
+    text-align: center;
+}
+header h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin:10px;
+    padding:5px;
+    text-align: center;
+}
+header h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin:10px;
+    padding:5px;
+    text-align: center;
+}
+
+h1.instrucciones {
+    border-top: 1px solid black;
+    padding-top:5px
+}
+
+nav {
+    top: 0px;
+    margin:5px
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    /*position: fixed;   */
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+fieldset {
+    font-family: LatoMedium, Arial, Helvetica, sans-serif;
+    background: rgb(13, 61, 15);;
+    width: 350px;
+    border: thick solid #4c4c51;
+    margin:5px auto;
+    padding:15px;
+   
+}
+
+legend {
+    border-top-width: medium;
+    border-right-width: medium;
+    border-bottom-width: medium;
+    border-left-width: medium;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    background-color: #FFF;
+    margin:5px;
+    padding:2px;
+    
+}
+#formulariomodifica label{
+    color:#aaa;
+    margin:5px;
+    padding:2px;
+    float: both;
+}
+#info{
+    margin:5px;
+    background-color: #aaa;
+}

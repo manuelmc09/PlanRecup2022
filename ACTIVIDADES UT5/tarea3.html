@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css">
+        <!-- Awesome font  -->
+        <link rel="stylesheet" href="./css/font-awesome.css">
+        <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <title>ACTIVIDADES UT5 - tarea 3</title>
+    <link rel="stylesheet" href="./css/main.css"  type="text/css">
+</head>
+<body>
+    <header>
+        <img src="img/logoCIFPLaLaboral.png" alt="Centro Integrado de Formación Profesional" />
+        <h1>PLAN DE RECUPERACIÓN CONVOCATORIA JUNIO 2022</h1> <br>
+        <h3>ACTIVIDADES DE TRABAJO UT5. INTERACCIÓN CON EL USUARIO: EVENTOS Y FORMULARIOS</h3>
+        <h3>CIFP La Laboral Sectores Industrial y de Servicios</h3>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html" title="Inicio">Inicio</a></li>
+            <li><a href="tarea1.html" title="Tarea 1">Tarea 1</a></li>
+            <li><a href="tarea2.html" title="Tarea 2">Tarea 2</a></li>
+            <li><a class="active" href="tarea3.html" title="Tarea 3">Tarea 3</a></li>
+            <li><a href="tarea4.html" title="Tarea 4">Tarea 4</a></li>
+            <li><a href="tarea5.html" title="Tarea 5">Tarea 5</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h1>Tarea 3</h1>
+        <h2>Realiza una calculadora con un formato similar a la siguiente:
+        </h2> <br>
+      <img src="img/002.JPG" alt="imagen calculadora">
+        
+    </section>
+    <section>
+        <h2 id="calculo">CALCULADORA</h2>
+            <table class="calculadora">
+            
+                <tr>
+                    <td colspan="4"><span id="resultado"></span></td>
+                </tr>
+                <tr>
+                    <td><input type="button" id="siete" class="btnDigito boton" value="7"></td>
+                    <td><input type="button" class="btnDigito boton" id="ocho" value="8"></td>
+                    <td><input type="button" class="btnDigito boton" id="nueve" value="9"></td>
+                    <td><input type="button" class="btnOperador boton" id="division" value="/"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" id="cuatro" class="btnDigito boton" value="4"></td>
+                    <td><input type="button" class="btnDigito boton" id="cinco" value="5"></td>
+                    <td><input type="button" class="btnDigito boton" id="seis" value="6"></td>
+                    <td><input type="button" class="btnOperador boton" id="multi" value="*"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" id="uno" class="btnDigito boton" value="1"></td>
+                    <td><input type="button" id="dos" class="btnDigito boton" value="2"></td>
+                    <td><input type="button" id="tres" class="btnDigito boton" value="3"></td>
+                    <td><input type="button" class="btnOperador boton"  id="resta" value="-"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" id="cero" class="btnDigito boton" value="0"></td>
+                    <td><input type="button" id="decimal" class="btnDigito boton" value="."></td>
+                    <td><input type="button" id="masmenos" value="+/-"></td>
+                    <td><input type="button" class="btnOperador boton"  id="suma" value="+"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" id="padch" value="("></td>
+                    <td><input type="button" id="padiz" value=")"></td>
+                    <td><input type="button" id="sqrt" value="sqrt"></td>
+                    <td><input type="button" id="menor" value="<-"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="button"  id="igual" value="="></td>
+                    <td colspan="2"><input type="button"  id="c" value="C"></td>
+                </tr>
+
+            </table>
+
+    </section>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+
+    <script src="./js/tarea3.js"></script>
+
+</body>
+</html>

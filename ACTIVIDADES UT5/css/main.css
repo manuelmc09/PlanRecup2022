@@ -1,0 +1,326 @@
+@font-face {
+    font-family: LatoRegular;
+    src: url(./fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: LatoMedium;
+    src: url(./fonts/Lato-Medium.ttf);
+}
+
+header {
+    background-color: #4c4c51;
+    display:grid;
+    padding:10px;
+    margin:5px
+}
+
+header h1 {
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    padding-top: 10px;
+    text-align: center;
+}
+header h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin:10px;
+    padding:5px;
+    text-align: center;
+}
+header h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin:10px;
+    padding:5px;
+    text-align: center;
+}
+
+h1.instrucciones {
+    border-top: 1px solid black;
+    padding-top:5px
+}
+
+nav {
+    top: 0px;
+    margin:5px
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    /*position: fixed;   */
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+section h1,
+h2 {
+    color: rgb(13, 61, 15);
+}
+h2#calculo{
+    text-align: center;
+    color: rgb(13, 61, 15);
+
+}
+p{
+    color:darkred;
+    font-size: 1.2rem;
+}
+
+section p {
+    font-family: LatoMedium, Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color:darkred;
+    border-top: 1px solid black;
+    padding-top:5px
+}
+ol.util{
+    color:#4c4c51;
+    background-color: #fff;
+    float:left;
+    padding:10px;
+    list-style-type: decimal;
+}
+ol li{
+    background: #ffe5e5;
+  color: darkred;
+  padding: 5px;
+  margin-left: 25px;
+}
+
+footer {
+    display:grid;
+    top:180px;
+    background-color: #4c4c51;
+    height: 40px;
+    padding-left:10px;
+    margin:5px
+}
+footer>p{
+    font-family: LatoMedium, Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin:5px;
+    font-size: 1rem;
+}
+.nota{
+    font-family: LatoMedium, Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: grey;
+    margin:10px;
+    padding: 10px;;
+    font-size: 0.8rem;
+}
+img{
+    margin:10px;
+    padding:10px;
+    position: relative;
+    left:340px;
+    top:10px
+
+}
+label {
+    font-family: LatoMedium, Arial, Helvetica, sans-serif;
+    width: 150px;
+    float: left;
+    margin-bottom: 5px;
+    color: #fff;
+    font-weight: bolder;
+}
+label#colorea{
+    font-family: LatoMedium, Arial, Helvetica, sans-serif;
+    width: 400px;
+    float: left;
+    margin-bottom: 5px;
+    color: #111;
+    font-weight: bolder;
+}
+select#color-select{
+    margin-right:10px;
+    background-color: #666;
+}
+button#modifica{
+    border-radius: 0.5rem;
+    margin-left:5px
+}
+input,
+select {
+    font-family: LatoMedium, Arial, Helvetica, sans-serif;
+    width: 150px;
+    float: left;
+    margin-bottom: 5px;
+    color:#fff;
+    background-color: #111;
+}
+
+fieldset {
+    font-family: LatoMedium, Arial, Helvetica, sans-serif;
+    background: rgb(13, 61, 15);;
+    width: 350px;
+    border: thick solid #4c4c51;
+    margin:5px;
+    padding:15px
+}
+
+legend {
+    border-top-width: medium;
+    border-right-width: medium;
+    border-bottom-width: medium;
+    border-left-width: medium;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    background-color: #FFF;
+}
+#mensajes {
+    font-family: LatoMedium, Arial, Helvetica, sans-serif;
+    float: left;
+    background: #33FF33;
+    width: 325px;
+}
+
+#errores {
+    font-family: LatoMedium, Arial, Helvetica, sans-serif;
+    float: left;
+    margin:5px;
+    color:white;
+    text-align: center;
+    background: #4c4c51;
+    width: 325px;
+}
+
+#intentos {
+    font-family: LatoMedium, Arial, Helvetica, sans-serif;
+    float: left;
+    background: #CCFF33;
+    width: 325px;
+    margin:4px;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+
+.error {
+    font-family: LatoMedium, Arial, Helvetica, sans-serif;
+    border: solid 2px #FF0000;
+}
+input#enviar{
+    background-color:#ffd5e5;
+    font-family: LatoMedium, Arial, Helvetica, sans-serif;
+    border-radius: 0.5rem;
+    font-size: 17px;
+    margin-top:5px;
+    color:#4c4c51
+}
+input#button{
+    background-color:#ffd5e5;
+    font-family: LatoMedium, Arial, Helvetica, sans-serif;
+    border-radius: 0.5rem;
+    font-size: 17px;
+    margin-top:5px;
+    color:#4c4c51
+
+}
+.calculadora{
+    display:block;
+  margin:0 auto;
+  padding:20px;
+  background-color:#4c4c51;
+  width:340px;
+  height:500px;
+  border-radius: 25px;
+}
+.calculadora td input{
+    display:block;
+    margin:5px;
+    width:50px;
+    height: 50px;
+    font-size: 20px;
+    background-color:#888;
+  }
+  #resultado{
+    display:block;
+    text-align: left;
+    font-size: 20px;
+    margin:10px;
+    padding:10px;
+    width:220px;
+    height: 50px;
+    background-color:#fff;
+    border-radius: 0.75rem;
+    overflow-y: scroll;
+  }
+  .calculadora #igual {
+    width:110px;
+    height: 50px;
+  }
+  .calculadora #c{
+    width:110px;
+    height: 50px;
+  }
+  .calculadora span{
+    border:1px #111 solid;
+  }
+  span#resultado{
+    width:270px;
+    height:50px;
+    margin: 5px auto
+
+  }
+.tarea4{
+    border:1px #111 solid;
+    color:#333;
+    margin:5px auto;
+    padding:5px;
+    background-color:#fff;
+    width:400px;
+    height: 220px;
+    text-align:  center;
+    display:block;
+    align-items: center;
+
+}
+#listar{
+    margin:4px;
+    text-align: center;
+}
+.tarea4 label{
+    color:#333;
+    border:1px #111 solid;
+}
+
+
+div.block{
+    position:absolute;
+    background-color:#aabbcc;
+    border:1px solid #111;
+    left: 0px;
+    top:0px;
+    width:90px;
+    height:90px
+}
